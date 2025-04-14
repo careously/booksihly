@@ -65,7 +65,7 @@ a {
     width: 250px;
     height: 250px;
     border-radius: 5px 50px 50px 5px;
-    background-image: url(/booksihly/images/IMG-7931.jpg);
+    background-image: url(/images/IMG-7931.jpg);
     background-size: cover;
     background-position: center;
     background-color: var(--orange);
@@ -78,6 +78,10 @@ a {
     flex-direction: column;
     justify-content: space-around;
     gap: 10px;
+}
+
+.header-info p {
+    line-height: 1.7;
 }
 
 .header-info .main {
